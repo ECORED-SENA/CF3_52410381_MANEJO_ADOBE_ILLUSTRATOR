@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <g id="Grupo_1101257" data-name="Grupo 1101257" transform="translate(-456 -965)">
+    <circle id="Elipse_11514" data-name="Elipse 11514" cx="30" cy="30" r="30" transform="translate(456 965)" fill="#606060"/>
+    <g id="Grupo_1101256" data-name="Grupo 1101256" transform="translate(-46.756 1.518)">
+      <g id="Rectángulo_403116" data-name="Rectángulo 403116" transform="translate(527.756 987.482)" stroke="#fff" stroke-width="1">
+        <rect width="22" height="21" stroke="none"/>
+        <rect x="0.5" y="0.5" width="21" height="20" fill="none"/>
+      </g>
+      <g id="Rectángulo_403117" data-name="Rectángulo 403117" transform="translate(532.756 991.482)" fill="#606060" stroke="#fff" stroke-width="1">
+        <rect width="12" height="13" stroke="none"/>
+        <rect x="0.5" y="0.5" width="11" height="12" fill="none"/>
+      </g>
+      <g id="Rectángulo_403115" data-name="Rectángulo 403115" transform="translate(516.756 978.482)" fill="#fff" stroke="#000" stroke-width="1">
+        <rect width="22" height="21" stroke="none"/>
+        <rect x="0.5" y="0.5" width="21" height="20" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>

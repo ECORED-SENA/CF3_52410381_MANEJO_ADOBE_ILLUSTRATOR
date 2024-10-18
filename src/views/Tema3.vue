@@ -6,6 +6,7 @@
       .titulo-principal__numero
         span 3
       h1 Panel Buscatrazos
+    p.mb-4 El panel de Buscatrazos dispone de herramientas que permiten combinar objetos vectoriales en nuevas formas.
 
 </template>
 
