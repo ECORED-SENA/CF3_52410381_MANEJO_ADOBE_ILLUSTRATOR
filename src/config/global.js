@@ -148,16 +148,11 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
-    },
-    {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Panel Apariencia',
+      referencia:
+        'Camilo Adobe. (2024). <i>CAP. 24 - ILLUSTRATOR 2024 - PANEL APARIENCIA Y ESTILOS GRÁFICOS I</i> (video). YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=CfaySzEmlEU',
     },
   ],
   glosario: [
@@ -166,14 +161,66 @@ export default {
       significado: 'Texto de la definición',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Apariencia',
+      significado:
+        'panel en Adobe Illustrator que permite modificar el aspecto de un objeto sin afectar su estructura interna, incluyendo rellenos, trazos y efectos.',
+    },
+    {
+      termino: 'Buscatrazos',
+      significado:
+        'herramienta que permite combinar, dividir o eliminar partes de objetos vectoriales para crear nuevas formas.',
+    },
+    {
+      termino: 'Capas',
+      significado:
+        'herramienta que organiza los diferentes elementos de una ilustración en Adobe Illustrator, facilitando su manipulación y visibilidad.',
+    },
+    {
+      termino: 'Degradado',
+      significado:
+        'transición suave entre dos o más colores aplicada a un objeto, controlada mediante el panel de degradado.',
+    },
+    {
+      termino: 'Efectos vectoriales',
+      significado:
+        'modificaciones aplicadas a objetos vectoriales, como extrusión, biselado o deformación, que mantienen la naturaleza editable del objeto.',
+    },
+    {
+      termino: 'Expandir',
+      significado:
+        'opción en el panel de buscatrazos que conserva la forma general de un objeto compuesto, pero sin permitir la edición de sus partes individuales.',
+    },
+    {
+      termino: 'Guía de color',
+      significado:
+        'panel que permite seleccionar y crear combinaciones de colores armónicas basadas en un color base.',
+    },
+    {
+      termino: 'Opacidad',
+      significado:
+        'grado de transparencia de un color o relleno aplicado a un objeto, que se ajusta en el panel de degradado o apariencia.',
+    },
+    {
+      termino: 'Relleno',
+      significado:
+        'color o patrón aplicado al interior de un objeto vectorial en Adobe Illustrator, seleccionado desde el panel de color.',
+    },
+    {
+      termino: 'Trazado',
+      significado:
+        'contorno de un objeto vectorial que puede ser editado para cambiar su forma o aplicarle efectos de apariencia.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia: 'Adobe. (2015). Ayuda de Adobe Illustrator CC. ',
+      link:
+        'https://helpx.adobe.com/archive/es/illustrator/cc/2015/illustrator_reference.pdf',
+    },
+    {
+      referencia: 'Adobe. (2024). Crear gráficos en 3D en Illustrator. ',
+      link:
+        'https://helpx.adobe.com/co/illustrator/using/create-3d-graphics.html',
     },
   ],
   creditos: [
@@ -196,8 +243,13 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Cristian Andrés Osorio Caiza',
+          cargo: 'Experto temático',
+          centro: 'Centro Agroindustrial - Regional Quindío',
+        },
+        {
+          nombre: 'Ana Catalina Córdoba Sus',
+          cargo: 'Evaluadora instruccional',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
@@ -206,35 +258,35 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Blanca Flor Tinoco Torres',
           cargo: 'Diseñador de contenidos',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Jhon Jairo Urueta Alvarez',
           cargo: 'Desarrollador <i>full stack</i>',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
-        {
-          nombre: 'Nombre',
-          cargo: 'Animador y productor audiovisual',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
+        //{
+        //  nombre: 'Nombre',
+        //  cargo: 'Animador y productor audiovisual',
+        //  centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        //},
       ],
     },
     {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
-        {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Jaime Hernán Tejada Llano',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
+        //{
+        //  nombre: 'Luis Gabriel Urueta Alvarez',
+        //  cargo: 'Validador y vinculador de recursos educativos digitales',
+        //  centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        //},
+        //{
+        //  nombre: 'Jaime Hernán Tejada Llano',
+        //  cargo: 'Validador y vinculador de recursos educativos digitales',
+        //  centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        //},
         {
           nombre: 'Daniel Ricardo Mutis Gómez',
           cargo: 'Evaluador de contenidos inclusivos y accesibles',
