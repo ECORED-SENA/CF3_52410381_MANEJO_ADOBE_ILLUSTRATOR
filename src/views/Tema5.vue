@@ -17,7 +17,7 @@
                     figure
                       img(src='@/assets/curso/tema5/img1.svg', alt='', style="width: 60px").m-auto
                   .col
-                    p.mb-0 Dentro del énfasis en textos, Adobe Illustrator ofrece varios paneles de edición como por ejemplo: Carácter, Estilos de carácter, Estilos de párrafo, Glifos, OpenType, Párrafo y Tabuladores.
+                    p.mb-0 Dentro del énfasis en textos, Adobe Illustrator ofrece varios paneles de edición como por ejemplo: Carácter, Estilos de carácter, Estilos de párrafo, Glifos, #[i OpenType], Párrafo y Tabuladores.
           Separador
           #t_5_1
           .titulo-segundo.color-acento-contenido
@@ -27,7 +27,7 @@
               figure
                 img(src='@/assets/curso/tema5/img2.svg', alt='', style="width: 200px").m-auto
             .col(data-aos="fade-left")
-              p.mb-0 Consta de varias opciones ajustables entre las cuales se tienen: herramienta de retocar texto, fuente, estilo de fuente, tamaño de fuente, kerning o espaciado entre caracteres para casos especiales, escala horizontal, desplazamiento vertical, interlineado, tracking, escala vertical, rotación de caracteres e Idioma.
+              p.mb-0 Consta de varias opciones ajustables entre las cuales se tienen: herramienta de retocar texto, fuente, estilo de fuente, tamaño de fuente, #[i kerning] o espaciado entre caracteres para casos especiales, escala horizontal, desplazamiento vertical, interlineado, tracking, escala vertical, rotación de caracteres e Idioma.
           p.mb-5(data-aos="fade-right") A continuación se presentan algunas de las funcionalidades más utilizadas:
           .row.justify-content-center
             .col-lg-10
@@ -74,7 +74,7 @@
                               figure
                                 img(src='@/assets/curso/tema4/img5.svg', alt='', style="width: 25px")
                             .col
-                              p.mb-0 #[b Tracking:] controla el espaciado entre caracteres de un texto.
+                              p.mb-0 #[b #[i Tracking]:] controla el espaciado entre caracteres de un texto.
                     .row
                       .col-12
                         .p-3.bg-c18
@@ -88,7 +88,7 @@
     #t_5_2
     .titulo-segundo.color-acento-contenido
       h2 5.2 Panel Párrafo
-    p.txt-c1.mb-5(data-aos="fade-right") El Panel Párrafo en Adobe Illustrator es una herramienta fundamental para controlar la alineación, espaciado y distribución del texto en un diseño. Permite ajustar las características de párrafos enteros, ofreciendo un control preciso sobre la disposición del texto y su relación con otros elementos visuales.
+    p.mb-5(data-aos="fade-right") El Panel Párrafo en Adobe Illustrator es una herramienta fundamental para controlar la alineación, espaciado y distribución del texto en un diseño. Permite ajustar las características de párrafos enteros, ofreciendo un control preciso sobre la disposición del texto y su relación con otros elementos visuales.
     .row.justify-content-center.mb-4
       .col-lg-10
         .titulo-sexto.color-acento-contenido(data-aos="fade-down")
@@ -100,8 +100,8 @@
           .col-lg.d-none.d-lg-block(data-aos="fade-left")
             figure
               img(src='@/assets/curso/tema5/img4.png', alt='', style="width: 480px").m-auto
-    p.txt-c1.mb-4(data-aos="fade-right") Funcionalidades clave del Panel Párrafo:
-    .row.bg-c5
+    p.mb-4(data-aos="fade-right") Funcionalidades clave del Panel Párrafo:
+    .row.bg-c5.mb-4
       .col-12(data-aos="fade-down")
         .p-5
           .tarjeta.tarjeta--azul2
@@ -114,25 +114,25 @@
                         figure
                           img(src='@/assets/curso/tema4/img2.svg', alt='', style="width: 34px")
                       .col
-                        p.txt-c1.mb-0 #[b Alineación del texto]
-                    p.txt-c1.ms-5 Permite controlar cómo se alinea el texto dentro del cuadro de texto. Las opciones de alineación incluyen:
+                        p.mb-0 #[b Alineación del texto]
+                    p.ms-5 Permite controlar cómo se alinea el texto dentro del cuadro de texto. Las opciones de alineación incluyen:
                     ul.lista-ul
                       li.d-flex
                         i.fas.fa-bezier-curve
                         |
-                        p.txt-c1.mb-0 #[b Alinear a la izquierda:] El texto se alinea con el margen izquierdo.
+                        p.mb-0 #[b Alinear a la izquierda:] El texto se alinea con el margen izquierdo.
                       li.d-flex
                         i.fas.fa-bezier-curve
                         |
-                        p.txt-c1.mb-0 #[b Alinear al centro:] El texto se centra entre los márgenes izquierdo y derecho.
+                        p.mb-0 #[b Alinear al centro:] El texto se centra entre los márgenes izquierdo y derecho.
                       li.d-flex
                         i.fas.fa-bezier-curve
                         |
-                        p.txt-c1.mb-0 #[b Alinear a la derecha:] El texto se alinea con el margen derecho.
+                        p.mb-0 #[b Alinear a la derecha:] El texto se alinea con el margen derecho.
                       li.d-flex
                         i.fas.fa-bezier-curve
                         |
-                        p.txt-c1.mb-0 #[b Justificado:] El texto se distribuye uniformemente entre ambos márgenes. Existen varias opciones de justificación: justificar a la izquierda, justificar al centro, justificar a la derecha, justificar completamente.
+                        p.mb-0 #[b Justificado:] El texto se distribuye uniformemente entre ambos márgenes. Existen varias opciones de justificación: justificar a la izquierda, justificar al centro, justificar a la derecha, justificar completamente.
                   .col-lg-4
                     figure
                       img(src='@/assets/curso/tema5/img5.png', alt='', style="width: 500px").m-auto
@@ -143,21 +143,21 @@
                         figure
                           img(src='@/assets/curso/tema4/img3.svg', alt='', style="width: 34px")
                       .col
-                        p.txt-c1.mb-0 #[b Sangrías]
-                    p.txt-c1.ms-5 El panel permite ajustar las sangrías para el párrafo. Es posible configurar:
+                        p.mb-0 #[b Sangrías]
+                    p.ms-5 El panel permite ajustar las sangrías para el párrafo. Es posible configurar:
                     ul.lista-ul
                       li.d-flex
                         i.fas.fa-bezier-curve
                         |
-                        p.txt-c1.mb-0 #[b Sangría izquierda:] Controla el espacio entre el margen izquierdo del cuadro de texto y el inicio de la primera línea del párrafo.
+                        p.mb-0 #[b Sangría izquierda:] Controla el espacio entre el margen izquierdo del cuadro de texto y el inicio de la primera línea del párrafo.
                       li.d-flex
                         i.fas.fa-bezier-curve
                         |
-                        p.txt-c1.mb-0 #[b Sangría derecha:] Establece el espacio entre el margen derecho y el final de la última línea del párrafo.
+                        p.mb-0 #[b Sangría derecha:] Establece el espacio entre el margen derecho y el final de la última línea del párrafo.
                       li.d-flex
                         i.fas.fa-bezier-curve
                         |
-                        p.txt-c1.mb-0 #[b Sangría de primera línea:] Permite añadir una sangría a la primera línea del párrafo, dejando las líneas siguientes alineadas con el margen izquierdo.
+                        p.mb-0 #[b Sangría de primera línea:] Permite añadir una sangría a la primera línea del párrafo, dejando las líneas siguientes alineadas con el margen izquierdo.
                   .col-lg-4
                     figure
                       img(src='@/assets/curso/tema5/img6.png', alt='', style="width: 500px").m-auto
@@ -168,11 +168,12 @@
                         figure
                           img(src='@/assets/curso/tema4/img4.svg', alt='', style="width: 34px")
                       .col
-                        p.txt-c1.mb-0 #[b Espaciado antes y después de párrafos]
-                    p.txt-c1.ms-5 El panel ofrece la opción de ajustar el espacio antes y después de un párrafo. Esto se utiliza para crear un espaciado visual claro entre párrafos sin necesidad de añadir saltos de línea adicionales.
+                        p.mb-0 #[b Espaciado antes y después de párrafos]
+                    p.ms-5 El panel ofrece la opción de ajustar el espacio antes y después de un párrafo. Esto se utiliza para crear un espaciado visual claro entre párrafos sin necesidad de añadir saltos de línea adicionales.
                   .col-lg-4
                     figure
                       img(src='@/assets/curso/tema5/img7.png', alt='', style="width: 500px").m-auto
+    p.mb-0(data-aos="fade-right") El Panel Párrafo es especialmente útil cuando se trabaja con grandes bloques de texto, ya que permite una gestión detallada del flujo y la estructura del contenido. Su buen uso asegura que los textos en el diseño mantengan un estilo consistente y profesional.
 
 </template>
 

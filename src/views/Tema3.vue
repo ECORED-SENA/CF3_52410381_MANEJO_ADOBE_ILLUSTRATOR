@@ -54,7 +54,7 @@
               .row.justify-content-center.align-items-center(titulo="Dividir")
                 .col-lg-6.mb-4.mb-lg-0
                   p.mb-0 #[b Dividir]
-                  p.mb-0 Con este botón se aparta un segmento de la ilustración en las caras rellenas que la forman. Al accionar este botón, puede utilizar las herramientas Selección directa o Selección de grupos y manipular las caras resultantes de forma independiente, también puede optar por eliminar o por conservar los objetos no rellenos al aplicar el comando Dividir.
+                  p.mb-0 Con este botón se aparta un segmento de la ilustración en las caras rellenas que la forman. Al accionar este botón, puede utilizar las herramientas #[b Selección directa] o #[b Selección de grupos] y manipular las caras resultantes de forma independiente, también puede optar por eliminar o por conservar los objetos no rellenos al aplicar el comando #[b Dividir].
                 .col-lg-3
                   figure
                     img(src='@/assets/curso/tema3/img5.svg', alt='', style="width: 90px").m-auto
@@ -82,7 +82,7 @@
               .row.justify-content-center.align-items-center(titulo="Contornear")
                 .col-lg-6.mb-4.mb-lg-0
                   p.mb-0 #[b Contornear]
-                  p.mb-0 Fragmenta un objeto en sus segmentos de línea o bordes. Esta función es útil para ilustraciones donde es necesario cortar los objetos que se sobreimprimen. Al dar clic en este botón, puede utilizar las herramientas Selección directa o Selección de grupos y manipular cada borde de forma independiente. Puede optar por eliminar o por conservar los objetos no rellenos al aplicar este comando.
+                  p.mb-0 Fragmenta un objeto en sus segmentos de línea o bordes. Esta función es útil para ilustraciones donde es necesario cortar los objetos que se sobreimprimen. Al dar clic en este botón, puede utilizar las herramientas #[b Selección directa] o #[b Selección de grupos] y manipular cada borde de forma independiente. Puede optar por eliminar o por conservar los objetos no rellenos al aplicar este comando.
                 .col-lg-3
                   figure
                     img(src='@/assets/curso/tema3/img9.svg', alt='', style="width: 90px").m-auto
@@ -120,7 +120,7 @@
               p.mb-0 Repite la acción de comando llevada cabo previamente.
           .row(titulo="Opciones del Buscatrazos")
             .col-12
-              p.mb-0 Facilita los ajustes en la precisión del cálculo de trazado de un objeto, permite “Quitar puntos redundantes” o puntos innecesarios al accionar algún comando del Buscatrazos. Por último, se encuentra la opción: “Los comandos Dividir y Contornear eliminan ilustraciones sin tintas” que suprime los objetos no rellenos de la ilustración seleccionada al accionar los comandos Dividir o Contornear.
+              p.mb-0 Facilita los ajustes en la precisión del cálculo de trazado de un objeto, permite “Quitar puntos redundantes” o puntos innecesarios al accionar algún comando del Buscatrazos. Por último, se encuentra la opción: “Los comandos Dividir y Contornear eliminan ilustraciones sin tintas” que suprime los objetos no rellenos de la ilustración seleccionada al accionar los comandos #[b Dividir] o #[b Contornear].
       .col-lg-5.d-none.d-lg-block(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema3/img13.svg', alt='', style="width: 450px").m-auto

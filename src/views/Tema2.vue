@@ -179,10 +179,10 @@
               AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul1")
                 .row(titulo="E. Limita los colores a la biblioteca de muestras especificadas")
                   .col-12
-                    p.mb-0 A accionar esta opción, se despliegan las diferentes alternativas de colores organizadas por categorías, la cuales pueden ser: tejidos, comidas, naturaleza, entre otras.
+                    p.mb-0 Al accionar esta opción, se despliegan las diferentes alternativas de colores organizadas por categorías, la cuales pueden ser: tejidos, comidas, naturaleza, entre otras.
                 .row(titulo="F. Editar colores y/o Editar o aplicar colores según selección")
                   .col-12
-                    p.mb-0 A presionar el comando, aparece el cuadro de dialogo Volver a colorear ilustración, permitiendo ajustar la armonía de colores actual.
+                    p.mb-0 Al presionar el comando, aparece el cuadro de dialogo Volver a colorear ilustración, permitiendo ajustar la armonía de colores actual.
                 .row(titulo="G. Guardar grupo de color en el panel Muestras")
                   .col-12
                     p.mb-0 Permite guardar el grupo de color en el panel de muestras.

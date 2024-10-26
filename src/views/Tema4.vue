@@ -11,17 +11,17 @@
         figure
           img(src='@/assets/curso/tema4/img1.png', alt='', style="width: 300px").m-auto
       .col-lg-6(data-aos="fade-down")
-        p.txt-c1 Los atributos de apariencia son propiedades que afectan al aspecto de un objeto sin alterar su estructura subyacente. Los atributos de apariencia son rellenos, trazos, transparencia y efectos. Si aplica un atributo de apariencia a un objeto y luego modifica o elimina ese atributo, el objeto subyacente o cualquier otro atributo aplicado al objeto no sufre cambios.
+        p Los atributos de apariencia son propiedades que afectan al aspecto de un objeto sin alterar su estructura subyacente. Los atributos de apariencia son rellenos, trazos, transparencia y efectos. Si aplica un atributo de apariencia a un objeto y luego modifica o elimina ese atributo, el objeto subyacente o cualquier otro atributo aplicado al objeto no sufre cambios.
         .row
           .col-12
             .p-4.bg-c10
               figure.mb-3
                 img(src='@/assets/curso/tema4/img1.svg', alt='', style="width: 80px")
-              p.txt-c1.mb-0 Puede definir atributos de apariencia en cualquier nivel de la jerarquía de la capa. Por ejemplo, al aplicar un efecto de sombra paralela a una capa, todos los objetos de la capa adoptan la sombra paralela. Sin embargo, al mover un objeto fuera de la capa, ese objeto dejará de tener la sombra paralela porque el efecto pertenece a la capa y no a los objetos contenidos en ella.
+              p.mb-0 Puede definir atributos de apariencia en cualquier nivel de la jerarquía de la capa. Por ejemplo, al aplicar un efecto de sombra paralela a una capa, todos los objetos de la capa adoptan la sombra paralela. Sin embargo, al mover un objeto fuera de la capa, ese objeto dejará de tener la sombra paralela porque el efecto pertenece a la capa y no a los objetos contenidos en ella.
       .col-lg-3.d-none.d-lg-block(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema4/img2.png', alt='', style="width: 300px").m-auto
-    p.mb-5(data-aos="fade-right") #[span.txt-c1 El panel Apariencia es la puerta de acceso al trabajo con atributos de apariencia. Puesto que es posible aplicar atributos de apariencia a capas, grupos y objetos (y a menudo, también a rellenos y trazos) la jerarquía de los atributos de la ilustración puede llegar a ser muy compleja. Por ejemplo, si aplica un efecto a una capa entera y otro efecto a un objeto de la capa, puede ser difícil determinar cuál de los dos efectos causa el cambio de la ilustración. El panel Apariencia muestra los rellenos, trazos, estilos gráficos y efectos que se han aplicado a un objeto, grupo o capa.] Las siguientes son las opciones que encuentra en este panel:
+    p.mb-5(data-aos="fade-right") El panel Apariencia es la puerta de acceso al trabajo con atributos de apariencia. Puesto que es posible aplicar atributos de apariencia a capas, grupos y objetos (y a menudo, también a rellenos y trazos) la jerarquía de los atributos de la ilustración puede llegar a ser muy compleja. Por ejemplo, si aplica un efecto a una capa entera y otro efecto a un objeto de la capa, puede ser difícil determinar cuál de los dos efectos causa el cambio de la ilustración. El panel Apariencia muestra los rellenos, trazos, estilos gráficos y efectos que se han aplicado a un objeto, grupo o capa. Las siguientes son las opciones que encuentra en este panel:
     .row.justify-content-center
       .col-lg-10
         .titulo-sexto.color-acento-contenido(data-aos="fade-down")
@@ -39,7 +39,7 @@
                       figure
                         img(src='@/assets/curso/tema4/img2.svg', alt='', style="width: 25px")
                     .col
-                      p.txt-c1.mb-0 Trazado con trazo, relleno y efecto de sombra paralela.
+                      p.mb-0 Trazado con trazo, relleno y efecto de sombra paralela.
             .row.mb-3
               .col-12
                 .p-3.bg-c11
@@ -48,7 +48,7 @@
                       figure
                         img(src='@/assets/curso/tema4/img3.svg', alt='', style="width: 25px")
                     .col
-                      p.txt-c1.mb-0 Trazado con efecto.
+                      p.mb-0 Trazado con efecto.
             .row.mb-3
               .col-12
                 .p-3.bg-c11
@@ -57,7 +57,7 @@
                       figure
                         img(src='@/assets/curso/tema4/img4.svg', alt='', style="width: 25px")
                     .col
-                      p.txt-c1.mb-0 Botón Añadir trazo nuevo.
+                      p.mb-0 Botón Añadir trazo nuevo.
             .row.mb-3
               .col-12
                 .p-3.bg-c11
@@ -66,7 +66,7 @@
                       figure
                         img(src='@/assets/curso/tema4/img5.svg', alt='', style="width: 25px")
                     .col
-                      p.txt-c1.mb-0 Botón de añadir nuevo relleno a objeto.
+                      p.mb-0 Botón de añadir nuevo relleno a objeto.
             .row.mb-3
               .col-12
                 .p-3.bg-c11
@@ -75,7 +75,7 @@
                       figure
                         img(src='@/assets/curso/tema4/img6.svg', alt='', style="width: 25px")
                     .col
-                      p.txt-c1.mb-0 Botón Añadir relleno nuevo.
+                      p.mb-0 Botón Añadir relleno nuevo.
             .row.mb-3
               .col-12
                 .p-3.bg-c11
@@ -84,7 +84,7 @@
                       figure
                         img(src='@/assets/curso/tema4/img7.svg', alt='', style="width: 25px")
                     .col
-                      p.txt-c1.mb-0 Botón Borrar apariencia.
+                      p.mb-0 Botón Borrar apariencia.
             .row
               .col-12
                 .p-3.bg-c11
@@ -93,7 +93,7 @@
                       figure
                         img(src='@/assets/curso/tema4/img8.svg', alt='', style="width: 25px")
                     .col
-                      p.txt-c1.mb-0 Botón Duplicar elemento seleccionado.
+                      p.mb-0 Botón Duplicar elemento seleccionado.
     Separador
     #t_4_1
     .titulo-segundo.color-acento-contenido
@@ -346,7 +346,7 @@
                             figure
                               img(src='@/assets/curso/tema4/img3.svg', alt='', style="width: 25px")
                           .col
-                            p.mb-0 #[b Widget de iluminación:] le permite arrastrar fuentes de luz para ajustar sus ángulos de iluminación.
+                            p.mb-0 #[b #[i Widget] de iluminación:] le permite arrastrar fuentes de luz para ajustar sus ángulos de iluminación.
                   .row.mb-3
                     .col-12
                       .p-3.bg-c15
@@ -655,7 +655,7 @@
         .p-4.bg-c15
           figure.mb-3
             img(src='@/assets/curso/tema4/img19.png', alt='', style="width: 500px").m-auto
-          p.text-center.mb-0 #[b Desenfoque de #[span.txt-c1 radial]]
+          p.text-center.mb-0 #[b Desenfoque de radial]
       .col-10.col-md-8.col-lg-4(data-aos="fade-right")
         .p-4.bg-c15
           figure.mb-3
