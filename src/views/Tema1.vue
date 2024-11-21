@@ -98,19 +98,19 @@
         .p-5
           .tarjeta.tarjeta--gris1.p-4
             PasosB.color-acento-contenido
-              .row.justify-content-center.align-items-center(titulo="Palabra")
+              .row.justify-content-center.align-items-center(titulo="")
                 .col-lg-5.mb-4.mb-lg-0
                   p.mb-0 En primer lugar, se selecciona la figura a la que se desea aplicar color:
                 .col-lg-5
                   figure
                     img(src='@/assets/curso/tema1/img5.png', alt='', style="width: 480px").m-auto
-              .row.justify-content-center.align-items-center(titulo="Palabra")
+              .row.justify-content-center.align-items-center(titulo="")
                 .col-lg-5.mb-4.mb-lg-0
                   p.mb-0 Luego se abre el panel #[b Color] desde la #[b Barra de menú], dando clic en la opción #[b Ventana] y seguidamente se hace clic en la opción #[b Color].
                 .col-lg-5
                   figure
                     img(src='@/assets/curso/tema1/img6.png', alt='', style="width: 480px").m-auto
-              .row.justify-content-center.align-items-center(titulo="Palabra")
+              .row.justify-content-center.align-items-center(titulo="")
                 .col-lg-5.mb-4.mb-lg-0
                   p.mb-0 Se puede seleccionar el color deseado en la #[b Parada espectro de colores] y aplicarlo al objeto, teniendo como resultado el elemento con el relleno respectivo.
                 .col-lg-5

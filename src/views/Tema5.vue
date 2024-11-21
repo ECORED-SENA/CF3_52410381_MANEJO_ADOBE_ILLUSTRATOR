@@ -27,7 +27,7 @@
               figure
                 img(src='@/assets/curso/tema5/img2.svg', alt='', style="width: 200px").m-auto
             .col(data-aos="fade-left")
-              p.mb-0 Consta de varias opciones ajustables entre las cuales se tienen: herramienta de retocar texto, fuente, estilo de fuente, tamaño de fuente, #[i kerning] o espaciado entre caracteres para casos especiales, escala horizontal, desplazamiento vertical, interlineado, tracking, escala vertical, rotación de caracteres e Idioma.
+              p.mb-0 Consta de varias opciones ajustables entre las cuales se tienen: herramienta de retocar texto, fuente, estilo de fuente, tamaño de fuente, #[i kerning] o espaciado entre caracteres para casos especiales, escala horizontal, desplazamiento vertical, interlineado, #[i tracking], escala vertical, rotación de caracteres e Idioma.
           p.mb-5(data-aos="fade-right") A continuación se presentan algunas de las funcionalidades más utilizadas:
           .row.justify-content-center
             .col-lg-10
@@ -96,7 +96,7 @@
         .row.mb-4
           .col-lg-auto(data-aos="fade-right")
             figure
-              img(src='@/assets/curso/tema5/img3.png', alt='', style="width: 552px").m-auto
+              img(src='@/assets/curso/tema5/img3.png', alt='Imagen que presenta las funcionalidades claves del Panel Párrafo.', style="width: 552px").m-auto
           .col-lg.d-none.d-lg-block(data-aos="fade-left")
             figure
               img(src='@/assets/curso/tema5/img4.png', alt='', style="width: 480px").m-auto

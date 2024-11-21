@@ -19,10 +19,10 @@
     .titulo-sexto.color-acento-contenido(data-aos="fade-down")
       p.mb-0 #[b Figura 11.] Capas
     .row.mb-3
-      .col-lg-5.d-none.d-lg-block(data-aos="fade-right")
+      .col-lg-5.my-lg-0.my-3(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema6/img3.png', alt='Imagen que presenta la estructura del panel capas con cada una de sus opciones.', style="width: 500px").m-auto
-      .col-lg-7(data-aos="fade-left")
+      .col-lg-7.my-lg-0.my-3(data-aos="fade-left")
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul1")
           .row(titulo="A. Panel de capas (<i>Layers Panel</i>)")
             .col-12
@@ -57,7 +57,7 @@
           .row(titulo="J. Columna de identificación como destino")
             .col-12
               p Indica si los elementos están seleccionados. Cuando algún elemento está seleccionado, aparece un cuadro de color. Cuando un elemento, puede ser una capa o un grupo, contiene algunos objetos seleccionados y otros que no lo están, muestra un cuadro de color de selección más pequeño junto al elemento principal. Si se seleccionan todos los objetos del elemento principal, los cuadros de color de selección tienen el mismo tamaño que las marcas que aparecen junto a los objetos seleccionados.
-              p.mb-0 Puede utilizar el panel Capas para mostrar algunos elementos como contornos y otros con el aspecto que tendrán en la ilustración final. También puede atenuar imágenes enlazadas y objetos de mapa de bits para facilitar la edición de las ilustraciones en la parte superior de la imagen. Esto resulta muy útil para calcar una imagen de mapa de bits.
+              p.mb-0 Puede utilizar el panel Capas para mostrar algunos elementos como contornos y otros con el aspecto que tendrán en la ilustración final. También puede atenuar imágenes enlazadas y objetos de mapa de #[i bits] para facilitar la edición de las ilustraciones en la parte superior de la imagen. Esto resulta muy útil para calcar una imagen de mapa de #[i bits].
       .col-lg-5.d-none.d-lg-block(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema6/img4.png', alt='', style="width: 500px").m-auto
